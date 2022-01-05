@@ -1,71 +1,15 @@
 @charset "UTF-8";
-.section1-img {
-  background-image: url(../img/imgtop.jpg);
-  /*画像表示 */
-  background-repeat: no-repeat;
-  /*繰り返し表示しない */
-  background-size: cover;
-  /*表示形式 */
+.section1 {
   height: 100vh;
-  /*高さ */
+  position: relative;
 }
 
-.simple-border1 {
-  -webkit-text-decoration: underline solid silver;
-          text-decoration: underline solid silver;
-}
-
-.simple-border2 {
-  -webkit-text-decoration: underline solid silver;
-          text-decoration: underline solid silver;
-}
-
-.simple-border3 {
-  -webkit-text-decoration: underline solid silver;
-          text-decoration: underline solid silver;
-}
-
-.center1 {
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-
-.center2 {
-  width: 30%;
-  height: auto;
-  text-align: center;
-}
-
-.center3 {
-  width: 30%;
-  height: auto;
-  text-align: center;
-}
-
-.center4 {
-  width: 30%;
-  height: auto;
-  text-align: center;
-}
-
-.container {
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.center5 {
-  width: 100%;
-  text-align: center;
-}
-
-.center6 {
-  width: 100%;
-  text-align: center;
+.section1-Img {
+  background-image: url(../img/top.jpg);
+  /* 画像のURLを指定       */
+  background-repeat: no-repeat;
+  /* 画像の繰り返しを指定  */
+  background-size: cover;
+  height: 100%;
 }
 /*# sourceMappingURL=New.css.map */
