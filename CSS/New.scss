@@ -18,48 +18,65 @@ body{
     padding: 0;
     margin: 0;
 }
-.heightbox-1{
+
+
+
+.heightbox-4{
+    position: absolute;
+    left: 15%;
+    width: auto;
+    text-align: center;
     height: auto;
 }
-.imgbox-1{
+.imgbox-4{
     height: 20vw;
     width: 20vw;
 }
-.img-1{
+.img-4{
     background-image: url(/img/img2.png);
-    background-size: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 100%;
     width: 100%;
 }
-.heightbox-2{
+.heightbox-5{
+    position: absolute;
+    right: 31%;
+    transform: translate(-50%,0%);
+    width: auto;
+    text-align: center;
     height: auto;
 }
-.imgbox-2{
+.imgbox-5{
     height: 20vw;
     width: 20vw;
 }
-.img-2{
+.img-5{
     background-image: url(/img/img1.png);
-    background-size: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 100%;
     width: 100%;
 }
-.heightbox-3{
+.heightbox-6{
+    position: absolute;
+    right: 15%;
+    width: auto;
+    text-align: center;
     height: auto;
 }
-.imgbox-3{
+.imgbox-6{
     height: 20vw;
     width: 20vw;
 }
-.img-3{
+.img-6{
     background-image: url(/img/img3.png);
-    background-size: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 100%;
     width: 100%;
 }
+
 
 
 .about{
@@ -93,7 +110,6 @@ p{
 	margin: 16px auto;
 	text-align: center;
 	display: block;
-	border: 1px solid #000;
 }
 .sample .text {
 	text-align: left;
@@ -106,7 +122,6 @@ p{
 	margin: 16px auto;
 	text-align: center;
 	display: block;
-	border: 1px solid #000;
 }
 .sample2 .text2{
 	text-align: left;
